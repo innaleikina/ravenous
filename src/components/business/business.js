@@ -36,4 +36,4 @@ render(){
  }
 }
 
-export default Business;
+export { Business as BusinessList };

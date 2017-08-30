@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import businesslist from 'src/components/business/business.js'
-import searchbar from'src/components/searchbar/searchbar.js'
+import { BusinessList } from './components/business/business.js'
+import SearchBar from'./components/searchbar/searchbar.js'
 
 
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
       <div class="App">
