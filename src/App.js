@@ -25,7 +25,7 @@ class App extends React.Component {
     return (
       <div className="App">
   <h1>Ravenous</h1>
-  <SearchBar onClick={this.searchYelp.bind(this,this.searchYelp)}/>
+  <SearchBar onClick={this.searchYelp.bind(this)}/>
   <BusinessList businesses={businesses} />
 </div>
     )
